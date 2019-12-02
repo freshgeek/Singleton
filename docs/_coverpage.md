@@ -1,13 +1,11 @@
-![logo](images/mall.svg)
+ 
 
-# mall-learning
+# 单例模式
 
-> mall学习教程，架构、业务、技术要点全方位解析。
+> 全部单例模式编程实践。
 
-mall项目是一套电商系统，使用现阶段主流技术实现。  
-涵盖了SpringBoot2.1.3、MyBatis3.4.6、Elasticsearch6.2.2、  
-RabbitMQ3.7.15、Redis3.2、Mongodb3.2、Mysql5.7等技术，  
-采用Docker容器化部署。
+单例模式是一种很基本的设计模式,在各个框架以及各种工具类中都有用到,
+单例模式很简单,但是也有很容易出错的地方,看似安全的单例模式中也有并发问题
 
-[GitHub](https://github.com/macrozheng/mall-learning)
+[GitHub](https://github.com/freshgeek/Singleton)
 [Get Started](README.md)
