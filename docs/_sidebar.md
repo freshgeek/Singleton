@@ -1,15 +1,7 @@
-* 序章
-  * [mall架构及功能概览](foreword/mall_foreword_01.md)
-  * [mall学习所需知识点](foreword/mall_foreword_02.md)
-* 架构篇
-  * [mall整合SpringBoot+MyBatis搭建基本骨架](architect/mall_arch_01.md)
-  * [mall整合Swagger-UI实现在线API文档](architect/mall_arch_02.md)
-  * [mall整合Redis实现缓存功能](architect/mall_arch_03.md)
-  * [mall整合SpringSecurity和JWT实现认证和授权（一）](architect/mall_arch_04.md)
-  * [mall整合SpringSecurity和JWT实现认证和授权（二）](architect/mall_arch_05.md)
-  * [mall整合SpringTask实现定时任务](architect/mall_arch_06.md)
-  * [mall整合Elasticsearch实现商品搜索](architect/mall_arch_07.md)
-  * [10分钟搭建自己的Git仓库](reference/gitlab.md)
-  * [IDEA中的Git操作，看这一篇就够了！](reference/idea_git.md)
-  * [Hutool中那些常用的工具类和方法 ](reference/hutool.md)
-  * [虚拟机安装及使用Linux，看这一篇就够了！](reference/linux_install.md)
+* WebSocket
+  * [原始需求](req.md)
+  * [项目启动](start.md)
+  * [接口文档](inf.md)
+  
+    
+
