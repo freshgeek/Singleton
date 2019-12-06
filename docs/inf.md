@@ -8,6 +8,8 @@
 
 [TOC]
 
+ 
+
 
 
 
@@ -139,6 +141,24 @@ public enum ResultType {
 
 
 ### 建立连接:/websocket/message/自身的标识
+
+> 例如:/websocket/message/123
+>
+> 自身标识就是-->resourceIMEI:'123'
+>
+> 例如上面的全路径为:ws://主机:端口/websocket/message/123
+>
+> 这样就建立了一个自身标识为123的websocket 连接 后面的resourceIEMI 都不用传
+>
+> 并且,在后面请求内容中传递无效 ,
+>
+> 在以下示例中的请求中为空的可以不要
+>
+> 但是必须保持应有的结构
+>
+> 例如:发送验证 {"type":"sendCode","resourceIMEI":"","content":"","userForm":{"account":"1163518793@qq.com","password":"","code":""},"targetIMEI":""}
+>
+> 可以请求 {"type":"sendCode","userForm":{"account":"1163518793@qq.com","password":"","code":""}}
 
 > 可以部署代码后 使用 主机:端口/message_demo.html 访问 , 打开f12 调试工具 查看 控制台打印参数
 
