@@ -158,7 +158,7 @@ public enum ResultType {
 >
 > 例如:发送验证 {"type":"sendCode","resourceIMEI":"","content":"","userForm":{"account":"1163518793@qq.com","password":"","code":""},"targetIMEI":""}
 >
-> 可以请求 {"type":"sendCode","userForm":{"account":"1163518793@qq.com","password":"","code":""}}
+> 可以请求 {"type":"sendCode","userForm":{"account":"1163518793@qq.com"}}
 
 > 可以部署代码后 使用 主机:端口/message_demo.html 访问 , 打开f12 调试工具 查看 控制台打印参数
 
